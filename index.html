@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Venda de Bebidas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <header class="cabecalho">
+    <nav>
+      <div class="botaoentrar">
+        <a href="https://qrup.com.br/"><button>Entrar sem cadastro</button></a>
+      </div>
+      <div class="botaocadas">
+        <a href="cadastro.html"> <button>Cadastrar</button></a>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <div class="para3">
+        <h1>
+          <strong>
+            Somos uma Plataforma digital que conecta consumidores <br />a sua
+            conveniência preferida sem ter que baixar e instalar mais um
+            aplicativo!</strong
+          >
+        </h1>
+      </div>
+      <div class="maos">
+        <img src="images/maosbrindes.png" alt="Mãos brindando" width="300px" />
+      </div>
+      <div class="qrcode">
+        <img src="images/mao-iphone-qrcode 1.png" alt="QR Code em um iPhone" />
+      </div>
+    </main>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <div class="bubble"><img src="svg/QRUP2 4.svg" alt="qr" /></div>
+    <div class="bubble"><img src="svg/QRUP2 4.svg" alt="qr" /></div>
+    <div class="bubble"><img src="svg/QRUP2 4.svg" alt="qr" /></div>
+    <div class="bubble"><img src="svg/QRUP2 4.svg" alt="qr" /></div>
+    <div class="bubble"><img src="svg/QRUP2 4.svg" alt="qr" /></div>
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+
+    <div id="terms-container" class="modal">
+      <div class="modal-content">
+        <h2>Termos e Condições</h2>
+        <p>Antes de acessar o site, leia e aceite nossos termos e condições.</p>
+        <div class="terms-text">
+          <p>
+            Aqui estão os termos e condições que você deve aceitar para acessar
+            nosso site. Certifique-se de ler todas as informações cuidadosamente
+            antes de prosseguir.
+          </p>
+          <!-- Adicione mais texto sobre os termos aqui -->
+        </div>
+        <button id="accept-btn">Aceito os Termos</button>
+      </div>
+    </div>
+
+    <div id="site-content" style="display: none"></div>
+
+    <script src="script.js"></script>
+  </body>
+  <footer class="rodape">
+    <div class="email">&#x1F4E7;<a href="contato@qrup.com.br [undefined:contato@qrup.com.br]">contato@qrup.com.br</a>
+    <div class="parafooter">
+      <p>Proibida a venda de bebidas alcoólicas para menores de 18 anos</p>
+    </div>
+    <div class="proibidomenores">
+      <img
+        src="images/proibido_bebida_para_menor.png"
+        alt="Proibido venda para menores"
+      />
+    </div>
+  </footer>
+</html>
